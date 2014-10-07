@@ -1,0 +1,14 @@
+{{!< default}}
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+      {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img class="pure-u-1-6 pure-u-md-4-5" src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+      <h1 class="brand-title">va.riks.io</h1>
+    </div>
+  </div>
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+      {{{content}}}
+    </div>
+  </div>
+</div>

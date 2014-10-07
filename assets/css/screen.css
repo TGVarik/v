@@ -1,0 +1,58 @@
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 1em auto;
+}
+
+.sidebar {
+    color: #fff;
+    background-image: url('../img/stressed_linen.png');
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+.brand-title {
+    font-family: 'Archer A', 'Archer B', 'Rockwell', 'Andale Mono', 'Courier New', monospace;
+    font-weight: 400;
+}
+
+.brand-tagline {
+    font-weight: 300;
+    color: rgb(176, 202, 219);
+}
+
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 5em 2em 0;
+        text-align: center;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .sidebar {
+        background-image: url('../img/stressed_linen_@2X.png');
+    }
+}
